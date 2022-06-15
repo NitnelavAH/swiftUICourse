@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5C0605283AA6DC00E8BD18 /* TextMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C0604283AA6DC00E8BD18 /* TextMod.swift */; };
+		8B5C0609283AC16300E8BD18 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C0608283AC16300E8BD18 /* Buttons.swift */; };
+		8B5C060D283AC5D400E8BD18 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C060C283AC5D400E8BD18 /* Images.swift */; };
 		8BE3BF78283565F80061AD99 /* PlatziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3BF77283565F80061AD99 /* PlatziApp.swift */; };
 		8BE3BF7A283565F80061AD99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3BF79283565F80061AD99 /* ContentView.swift */; };
 		8BE3BF7C283565FA0061AD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3BF7B283565FA0061AD99 /* Assets.xcassets */; };
 		8BE3BF7F283565FA0061AD99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3BF7E283565FA0061AD99 /* Preview Assets.xcassets */; };
+		8BF03ACE285A548200028ACB /* ZstackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF03ACD285A548200028ACB /* ZstackPadding.swift */; };
+		8BF03AD0285A635900028ACB /* ZstackPaddingModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF03ACF285A635900028ACB /* ZstackPaddingModules.swift */; };
+		8BF03AD2285A670F00028ACB /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF03AD1285A670F00028ACB /* TabViews.swift */; };
+		8BF03AD4285A687E00028ACB /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF03AD3285A687E00028ACB /* Navigations.swift */; };
+		8BF03AD6285A6DE300028ACB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF03AD5285A6DE300028ACB /* Player.swift */; };
+		8BFE22E0284A792800C03174 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE22DF284A792800C03174 /* TextFields.swift */; };
+		8BFE22E2284A84FC00C03174 /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE22E1284A84FC00C03174 /* Dividers.swift */; };
+		8BFE22E4284A88BB00C03174 /* HstackVstackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE22E3284A88BB00C03174 /* HstackVstackSpacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B5C0604283AA6DC00E8BD18 /* TextMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMod.swift; sourceTree = "<group>"; };
+		8B5C0608283AC16300E8BD18 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		8B5C060C283AC5D400E8BD18 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		8BE3BF74283565F80061AD99 /* Platzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE3BF77283565F80061AD99 /* PlatziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziApp.swift; sourceTree = "<group>"; };
 		8BE3BF79283565F80061AD99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BE3BF7B283565FA0061AD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BE3BF7E283565FA0061AD99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BF03ACD285A548200028ACB /* ZstackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPadding.swift; sourceTree = "<group>"; };
+		8BF03ACF285A635900028ACB /* ZstackPaddingModules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPaddingModules.swift; sourceTree = "<group>"; };
+		8BF03AD1285A670F00028ACB /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		8BF03AD3285A687E00028ACB /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
+		8BF03AD5285A6DE300028ACB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8BFE22DF284A792800C03174 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		8BFE22E1284A84FC00C03174 /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
+		8BFE22E3284A88BB00C03174 /* HstackVstackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackVstackSpacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				8BE3BF77283565F80061AD99 /* PlatziApp.swift */,
+				8BFE22DF284A792800C03174 /* TextFields.swift */,
+				8BFE22E1284A84FC00C03174 /* Dividers.swift */,
+				8BFE22E3284A88BB00C03174 /* HstackVstackSpacer.swift */,
+				8BF03ACD285A548200028ACB /* ZstackPadding.swift */,
+				8BF03ACF285A635900028ACB /* ZstackPaddingModules.swift */,
+				8BF03AD1285A670F00028ACB /* TabViews.swift */,
+				8BF03AD5285A6DE300028ACB /* Player.swift */,
+				8BF03AD3285A687E00028ACB /* Navigations.swift */,
+				8B5C060C283AC5D400E8BD18 /* Images.swift */,
 				8BE3BF79283565F80061AD99 /* ContentView.swift */,
+				8B5C0604283AA6DC00E8BD18 /* TextMod.swift */,
+				8B5C0608283AC16300E8BD18 /* Buttons.swift */,
 				8BE3BF7B283565FA0061AD99 /* Assets.xcassets */,
 				8BE3BF7D283565FA0061AD99 /* Preview Content */,
 			);
@@ -138,7 +171,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE3BF7A283565F80061AD99 /* ContentView.swift in Sources */,
+				8BF03AD2285A670F00028ACB /* TabViews.swift in Sources */,
+				8BFE22E2284A84FC00C03174 /* Dividers.swift in Sources */,
 				8BE3BF78283565F80061AD99 /* PlatziApp.swift in Sources */,
+				8BF03AD0285A635900028ACB /* ZstackPaddingModules.swift in Sources */,
+				8BF03AD6285A6DE300028ACB /* Player.swift in Sources */,
+				8BFE22E4284A88BB00C03174 /* HstackVstackSpacer.swift in Sources */,
+				8B5C060D283AC5D400E8BD18 /* Images.swift in Sources */,
+				8BF03AD4285A687E00028ACB /* Navigations.swift in Sources */,
+				8B5C0605283AA6DC00E8BD18 /* TextMod.swift in Sources */,
+				8B5C0609283AC16300E8BD18 /* Buttons.swift in Sources */,
+				8BFE22E0284A792800C03174 /* TextFields.swift in Sources */,
+				8BF03ACE285A548200028ACB /* ZstackPadding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,7 +331,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +361,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct Navigations: View {
+
+    @State var isDividersActive: Bool = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView {
+            VStack {
+                Text("Hello, World!").navigationTitle("Home")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar(content: {
+                    ToolbarItem( placement: .navigationBarTrailing) {
+                        Button(action: {
+                            isDividersActive = true
+                        }, label: {
+                            Text("+")
+                        })
+                    }
+                })
+
+                NavigationLink("Ir a las tabs", destination: TabViews()
+                )
+                
+                NavigationLink(
+                    destination: Dividers(),
+                    isActive: $isDividersActive,
+                    label: {
+                        EmptyView()
+                    }
+                )
+            }
+        }
     }
 }
 

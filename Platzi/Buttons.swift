@@ -8,12 +8,49 @@
 import SwiftUI
 
 struct Buttons: View {
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            
+            Button("Otro boton", action: {
+                print("Hola Mundo desde el boton")
+                
+            }).padding()
+            
+            Button("boton") {
+                print("Hola Mundo desde el otro boton")
+                
+            }
+            .padding()
+            
+            
+            Button(action: {print("Hola Mundo desde boton con una vista como label ")}, label: {
+                Text("Boton con vista como label").foregroundColor(.white).frame(width: 300, height:150, alignment: .center).background(Color.blue)
+                    
+            })
+            
+            
+            Button(action: metodoBoton, label: {
+                Text("Pulsame")
+            }).padding()
+            
+            
+            
+            
+        }
+        
     }
+
+    func metodoBoton() {
+        print("ME PULSASTE!")
+    }
+
+
+
 }
 
-struct Buttons_Previews: PreviewProvider {
+struct Botones_Previews: PreviewProvider {
     static var previews: some View {
         Buttons()
     }

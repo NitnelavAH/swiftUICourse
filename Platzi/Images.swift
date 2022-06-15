@@ -9,7 +9,29 @@ import SwiftUI
 
 struct Images: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        VStack{
+            
+         Text("Imagenes")
+          
+            Image(systemName: "swift").resizable().aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center)
+            
+            Image("sun").resizable().aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center).blur(radius: 8.0)
+            
+            Image(systemName: "swift").resizable().aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center).opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+            
+            Button(action: {print("Bienvenidos a Platzi")}, label: {
+                Image("sun").resizable().aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center)
+            })
+            
+           
+            Image(systemName: "swift")
+            
+            
+        }
+        
+        
     }
 }
 

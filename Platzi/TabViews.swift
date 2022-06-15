@@ -9,7 +9,22 @@ import SwiftUI
 
 struct TabViews: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+       TabView{
+           TextMod().tabItem {
+               Text("Screen 1")
+               Image(systemName: "moon")
+           }
+           
+           TextFields().tabItem {
+               Text("Screen 2")
+               Image(systemName: "play")
+           }
+           
+           ZstackPaddingModules().tabItem {
+               Text("Screen 3")
+               Image(systemName: "terminal")
+           }
+       }
     }
 }
 
